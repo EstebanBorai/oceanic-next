@@ -1,2 +1,2 @@
 # Oceanic Next
-> 🎨 React.js Documentation Inspired Theme for VSCode
+> 🎨 Theme for VSCode inspired in React.js Documentation
