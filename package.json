@@ -1,0 +1,21 @@
+{
+    "name": "oceanic-next",
+    "displayName": "Oceanic Next",
+    "description": "Oceanic Next color theme based on React.js Documentation",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oceanic Next",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oceanic Next-color-theme.json"
+            }
+        ]
+    }
+}
