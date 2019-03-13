@@ -172,7 +172,7 @@
     // "terminal.ansiBrightMagenta": "#ff0000",
     // "terminal.ansiBrightRed": "#ff0000",
     // "terminal.ansiBrightYellow": "#ff0000",
-    // "debugToolBar.background": "#ff0000",
+    "debugToolBar.background": "#282c34",
     "welcomePage.buttonBackground": "#29303bAA",
     "welcomePage.buttonHoverBackground": "#29303b",
     // "walkThrough.embeddedEditorBackground": "#ff0000",
@@ -220,8 +220,7 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier",
-				"keyword.control",
-				"keyword.operator",
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#c5a5c5"
@@ -243,16 +242,40 @@
 				"meta.block.tsx",
 				"meta.arrow.tsx",
 				"meta.var.expr.tsx",
-				"source.tsx"
+				"source.tsx",
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#88c6be"
 			}
 		},
 		{
+			"name": "Operator Set A",
+			"scope": [
+				"keyword.operator.ternary",
+				"storage.type.function.arrow",
+				"meta.arrow",
+				"keyword.operator.comparison"
+			],
+			"settings": {
+				"foreground": "#d7deea"
+			}
+		},
+		{
+			"name": "React Props",
+			"scope": [
+				"variable.other.property",
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#fc929e",
+			}
+		},
+		{
 			"name": "Operator, Misc - Second",
 			"scope": [
-				"meta.tag"
+				"meta.tag",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#ffffff",
@@ -288,7 +311,8 @@
 		{
 			"name": "Props as Attributes",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
+				"support.variable.object.node"
 			],
 			"settings": {
 				"foreground": "#dddddd"
@@ -358,6 +382,8 @@
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
+				"entity.other.inherited-class",
+				"meta.class",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
@@ -405,9 +431,18 @@
 			}
 		},
 		{
-			"name": "Language methods",
+			"name": "Language methods and Keywords",
 			"scope": [
-				"variable.language"
+				"variable.language",
+				"constant.language.null",
+				"constant.language.undefined",
+				"keyword.other.debugger",
+				"keyword.operator.expression.delete",
+				"keyword.operator.expression.in",
+				"keyword.operator.expression.instanceof",
+				"keyword.operator.new",
+				"keyword.operator.expression.typeof",
+				"keyword.operator.expression.void"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -435,12 +470,25 @@
 			}
 		},
 		{
+			"name": "JavaScript Objects",
+			"scope": [
+				"variable.object.property",
+				"meta.definition.property",
+				"meta.object-literal.key",
+				"meta.object.member",
+				"meta.objectliteral"
+			],
+			"settings": {
+				"foreground": "#dddddd"
+			}
+		},
+		{
 			"name": "Attributes",
 			"scope": [
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#c5a5c5ff"
 			}
 		},
 		{
