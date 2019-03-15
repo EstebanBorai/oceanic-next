@@ -1,0 +1,124 @@
+@function hover-dark($color) {
+  @return mix($color, #303030, 85%);
+}
+
+$primary: #7781ff;
+
+$error: #ff3684;
+$warning: #ffa036;
+
+$border-radius-default: .4rem;
+
+.c-heading {
+  font-family: 'Damion' !important;
+  font-weight: 100;
+  letter-spacing: .1rem;
+}
+
+%form-item  {
+  border: none;
+  padding: .5rem .9rem;
+  box-sizing: border-box;
+  font-size: .9rem;
+  margin: .2rem;
+  background: #ffffff;
+  border-radius: $border-radius-default;
+  border: 1px solid transparent;
+}
+
+.c-btn {
+  @extend %form-item;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.primary {
+  background: $primary;
+  color: #ffffff;
+
+  &:hover {
+    background: hover-dark($primary);
+    transition: .2s;
+  }
+}
+
+.info-btn {
+  color: #cfcfcf;
+  background: transparent;
+  border: none;
+  height: min-content;
+  width: min-content;
+  font-size: .9rem;
+  cursor: pointer;
+
+  &:hover {
+    color: #343434;
+  }
+}
+
+.c-form {
+  label {
+    display: flex;
+    justify-content: space-between;
+    margin: .4rem 0;
+    color: #343434;
+    max-width: 210px;
+  }
+
+  input {
+    &[type="text"],
+    &[type="number"],
+    &[type="email"] {
+      @extend %form-item;
+      border: 1px solid #ffffff;
+      transition: .2s;
+
+      &:active, &:focus {
+        border-color: $primary !important;
+        transition: .2s;
+      }
+    
+      &:hover {
+        border-color: #cfcfcf;
+        transition: .2s;
+      }
+    }
+  }
+
+  .help-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: .8rem;
+    color: #343434;
+    margin-top: .4rem;
+    padding-bottom: .2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    max-width: 210px;
+
+    &.error {
+      border-color: $error;
+      color: $error !important;
+    }
+
+    &.warning {
+      border-color: $warning;
+      color: $warning !important;
+    }
+  }
+
+  .c-info {
+    max-width: 210px;
+    position: absolute;
+  }
+}
+
+.c-info {
+  max-width: 80%;
+  margin: .5rem auto;
+  background: lighten($primary, 20%);
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  border-radius: $border-radius-default;
+}
