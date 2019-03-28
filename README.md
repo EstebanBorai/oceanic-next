@@ -8,7 +8,7 @@
 <p align="center">
   <h3 align="left">Color Scheme</h3>
   <img
-    src="https://raw.githubusercontent.com/estebanborai/oceanic-next/master/misc/color-palette.png" 
+    src="https://raw.githubusercontent.com/gitpullsh/oceanic-next/master/misc/color-palette.png" 
     alt="Color Scheme"
   />
 </p>
