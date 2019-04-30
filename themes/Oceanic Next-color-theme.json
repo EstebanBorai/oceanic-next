@@ -437,6 +437,7 @@
 				"keyword.operator.new",
 				"keyword.operator.expression.typeof",
 				"keyword.operator.expression.void",
+				"keyword.operator.expression.of",
 				"keyword.other.important.scss",
 			],
 			"settings": {
