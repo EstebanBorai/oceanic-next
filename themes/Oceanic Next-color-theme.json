@@ -348,7 +348,9 @@
 			"scope": [
 				"constant.numeric",
 				"support.constant",
-				"constant.language.boolean"
+				"constant.language.boolean",
+				"constant.language.null",
+				"constant.language.undefined"
 			],
 			"settings": {
 				"foreground": "#FAC863",
@@ -427,8 +429,6 @@
 			"name": "Language methods and Keywords",
 			"scope": [
 				"variable.language",
-				"constant.language.null",
-				"constant.language.undefined",
 				"keyword.type.cs",
 				"keyword.other.debugger",
 				"keyword.operator.expression.delete",
