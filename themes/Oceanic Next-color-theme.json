@@ -348,6 +348,7 @@
 			"scope": [
 				"constant.numeric",
 				"support.constant",
+				"constant.language.go",
 				"constant.language.boolean",
 				"constant.language.null",
 				"constant.language.undefined"
@@ -439,6 +440,7 @@
 				"keyword.operator.expression.void",
 				"keyword.operator.expression.of",
 				"keyword.other.important.scss",
+				"keyword.operator.logical.python",
 			],
 			"settings": {
 				"fontStyle": "italic",
