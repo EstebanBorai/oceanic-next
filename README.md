@@ -11,4 +11,3 @@
     alt="Color Scheme"
   />
 </p>
-<hr />
