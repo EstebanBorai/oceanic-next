@@ -1,7 +1,7 @@
 // Color Scheme
 
 // Background #15171c
-// Purple #c981c9
+// Purple #c5a5c5
 // Red #fc929e
 // Yellow #fac863
 // White #ffffff
@@ -29,6 +29,39 @@
 				"fontStyle": ""
 			}
 		},
+		// Shared
+		{
+			"name": "if/else Blocks",
+			"scope": [
+				"keyword.control.conditional"
+			],
+			"settings": {
+				"foreground": "#c5a5c5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "This / Self",
+			"scope": [
+				"variable.language.this.js"
+			],
+			"settings": {
+				"foreground": "#c5a5c5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable Names (No Keywords)",
+			"scope": [
+				"variable.other.constant",
+				"variable.other.object"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+				"fontStyle": ""
+			}
+		},
+
 		// JS/TS
 		{
 			"name": "JS/TS Import Statement",
@@ -83,7 +116,7 @@
 				"meta.class.js"
 			],
 			"settings": {
-				"foreground": "#c981c9",
+				"foreground": "#c5a5c5",
 				"fontStyle": ""
 			}
 		},
@@ -105,7 +138,7 @@
 				"meta.class.js"
 			],
 			"settings": {
-				"foreground": "#c981c9",
+				"foreground": "#c5a5c5",
 				"fontStyle": ""
 			}
 		},
@@ -149,10 +182,11 @@
 			"name": "JS/TS Keyword",
 			"scope": [
 				"keyword.control.flow.js",
-				"storage.type.function.js"
+				"storage.type.function.js",
+				"storage.type.js"
 			],
 			"settings": {
-				"foreground": "#c981c9",
+				"foreground": "#c5a5c5",
 			}
 		},
 		{
@@ -174,7 +208,7 @@
 				"meta.tag.js.jsx"
 			],
 			"settings": {
-				"foreground": "#c981c9",
+				"foreground": "#c5a5c5",
 				"fontStyle": ""
 			}
 		},
@@ -250,16 +284,6 @@
 			],
 			"settings": {
 				"foreground": "#88c6be",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "JS/TS this",
-			"scope": [
-				"variable.language.this.js"
-			],
-			"settings": {
-				"foreground": "#c981c9",
 				"fontStyle": ""
 			}
 		}
